@@ -1,0 +1,13 @@
+default:
+  SERVICE:
+    host: "0.0.0.0"
+    port: 8000
+    debug: true
+    threaded: true
+
+  NUGET:
+    certificate: "916A2901CE3B88E731AF38174BCADFB1DEC2DCC3"
+    timestamp_url: "http://timestamp.digicert.com"
+
+  SIGN_SERVICE:
+    url: "http://172.16.112.196:8000"
